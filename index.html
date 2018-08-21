@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Transportation Survey</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Transportation Survey</h2>
+      </div>
+      <form id="transportationSurvey">
+        <div class="form-group">
+          <p>In the past year, I have used the following modes of transportation to get to work:</p>
+          <input type="checkbox" name="workTransportation" value="motorcycle">Riding a motorcycle<br>
+          <input type="checkbox" name="workTransportation" value="horse">Riding a horse<br>
+          <input type="checkbox" name="workTransportation" value="wagon">Riding a wagon<br>
+        </div>
+        <div class="form-group">
+          <p>In the last year, I have used the following modes of transportation to get to the nightclub</p>
+          <input type="checkbox" name="clubTransportation" value="bicycle with training wheels">Riding a bicycle with training wheels.<br>
+          <input type="checkbox" name="clubTransportation" value="donkey">Riding a donkey.<br>
+          <input type="checkbox" name="clubTransportation" value="penny farthing">Riding a pennyfarthing.<br>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit Answers</button>
+      </form>
+      <span id="workResponses">
+       <p><b>You use the following methods of transportation to travel to work or school:</b></p>
+     </span>
+     <span id="clubResponses">
+      <p><b>You use the following methods of transportation to travel to work or school:</b></p>
+    </span>
+    </div>
+  </body>
+</html>
